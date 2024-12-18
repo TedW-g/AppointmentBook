@@ -10,8 +10,12 @@ public class Main
         for(int i = 50; i < 60; i++) schedule[1][i] = true;
         a.printPeriod(2);
 
-        a.findFreeBlock(2,15);
-        a.findFreeBlock(2,9);
-        a.findFreeBlock(2,20);
+        System.out.println(a.findFreeBlock(2,15));
+        System.out.println(a.findFreeBlock(2,9));
+        System.out.println(a.findFreeBlock(2,20));
+
+        schedule = new boolean[8][60];
+        AppointmentBook b = new AppointmentBook(schedule);
+        a.printPeriod(2);
     }
 }

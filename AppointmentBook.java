@@ -51,11 +51,8 @@ public class AppointmentBook
                 {
                     return i - duration + 1;
                 }
-                else
-                {
-                    block = 0;
-                }
             }
+            else block = 0;
         }
         return -1;
     }
