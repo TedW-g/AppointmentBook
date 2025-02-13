@@ -11,7 +11,7 @@ public class Main
         a.printPeriod(2);
 
         System.out.println(a.findFreeBlock(2,15));
-        System.out.println(a.findFreeBlock(2,9));
+       System.out.println(a.findFreeBlock(2,9));
         System.out.println(a.findFreeBlock(2,20));
 
         schedule = new boolean[8][60];
@@ -33,6 +33,7 @@ public class Main
         b.printPeriod(4);
         System.out.println(b.makeAppointment(2, 4, 22));
         b.printPeriod(4);
+        b.findFreeBlock(4,4);
         b.printPeriod(3);
         b.printPeriod(2);
 
@@ -41,7 +42,7 @@ public class Main
         b.printPeriod(3);
         b.printPeriod(2);
 
-        System.out.println(b.makeAppointment(2,4,30));
+       System.out.println(b.makeAppointment(2,4,30));
         b.printPeriod(4);
         b.printPeriod(3);
         b.printPeriod(2);
